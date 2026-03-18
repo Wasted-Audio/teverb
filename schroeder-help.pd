@@ -10,7 +10,7 @@
 #X obj 154 295 - 100;
 #X obj 154 274 env~ 2048;
 #X obj 321 459 output~;
-#X obj 260 290 schroederreverbstereo;
+#X obj 260 290 schroeder;
 #X obj 228 210 catch~ \$0-input;
 #X obj 19 117 throw~ \$0-input;
 #X obj 92 93 throw~ \$0-input;

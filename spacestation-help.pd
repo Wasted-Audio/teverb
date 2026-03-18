@@ -10,7 +10,7 @@
 #X obj 281 170 catch~ \$0-input;
 #X obj 19 117 throw~ \$0-input;
 #X obj 92 93 throw~ \$0-input;
-#X obj 281 220 spacestationstereo;
+#X obj 281 220 spacestation;
 #X obj 205 55 +~;
 #X obj 280 32 tgl 15 0 empty empty input_on 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 205 89 *~;
