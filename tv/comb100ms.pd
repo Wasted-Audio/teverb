@@ -1,5 +1,4 @@
 #N canvas 755 324 227 246 10;
-#X obj 80 92 delread~ \$0-med;
 #X obj 12 215 delwrite~ \$0-med 100;
 #X obj 12 35 inlet~;
 #X obj 12 187 +~;
@@ -11,11 +10,12 @@
 #X text 79 9 delay;
 #X text 132 8 gain;
 #X obj 131 60 sig~;
-#X connect 0 0 7 0;
-#X connect 0 0 4 1;
-#X connect 2 0 3 0;
-#X connect 3 0 1 0;
-#X connect 4 0 3 1;
-#X connect 5 0 0 0;
-#X connect 6 0 11 0;
-#X connect 11 0 4 0;
+#X obj 80 92 delread~ \$0-med 100;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 1;
+#X connect 4 0 11 0;
+#X connect 5 0 10 0;
+#X connect 10 0 3 0;
+#X connect 11 0 6 0;
+#X connect 11 0 3 1;
